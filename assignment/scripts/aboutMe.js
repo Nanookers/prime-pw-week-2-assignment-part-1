@@ -15,23 +15,33 @@ let luckyNumber = 7;
 // Refer back to the videos if you need help with this one.
 console.log ('My name is ' + fullName + ' and I think ' + luckyNumber + ' is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-
+let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-
+let food = 'Thai Curry';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-
+let pets = 1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 0;
 // 11 - Add two pets to your `pets` variable
-
+pets += 2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+const allowedPets = 4;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-
-
+if(adventurous){
+    console.log( 'Adventures are Great!' );
+}
+else{
+    console.log( 'How about we stay home?');
+}
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+if( luckyNumber === 2 && adventurous ){
+    console.log( 'Roll the dice!');
+}
+else{
+    console.log( 'No dice...');
+}
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
